@@ -12,7 +12,8 @@ a.goback {
     cursor: pointer;
 }
 
-body {
+html, body {
+    overflow-x: hidden;
     background-color: #000;
     color: #FFF;
     width: 100%;
