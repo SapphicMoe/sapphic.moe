@@ -18,7 +18,7 @@ body {
     width: 100%;
     padding: 13px;
     margin: auto;
-    max-width: 38em;
+    max-width: 30em;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
@@ -29,7 +29,7 @@ div.links {
 
 hr {
     margin-left: 0em;
-    width: 18.5%;
+    width: 32.5%;
 }
 
 .color {
