@@ -15,14 +15,12 @@ a.goback {
 body {
     background-color: #000;
     color: #FFF;
+    width: 100%;
+    padding: 13em;
+    margin: auto;
+    max-width: 38em;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-}
-
-div.container {
-    margin: auto;
-    width: 50%;
-    padding: 14em;
 }
 
 div.links {
