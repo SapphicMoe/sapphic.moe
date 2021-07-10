@@ -12,11 +12,9 @@ a.goback {
     cursor: pointer;
 }
 
-html, body {
-    overflow-x: hidden;
+body {
     background-color: #000;
     color: #FFF;
-    width: 100%;
     padding: 13px;
     margin: auto;
     max-width: 30em;
