@@ -4,8 +4,12 @@ a {
 }
 
 a:hover {
-    color: #fc0098;
+    color: #eb1e88;
+}
+
+.links > a, a:hover, a:visited {
     transition: all 0.2s;
+    -webkit-transition: all 0.2s;
 }
 
 a.goback {
@@ -26,12 +30,17 @@ div.links {
     font-size: 30px;
 }
 
+span.donation {
+    font-size: 13px;
+}
+
 hr {
     margin-left: 0em;
     width: 32.5%;
 }
 
-i, .color {
+h1, h2, h3, h4, h5,
+.color {
     color: #b52f80;
 }
 
