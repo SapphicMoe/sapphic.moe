@@ -1,10 +1,9 @@
 a {
     text-decoration: none;
-    color: #b52f80;
 }
 
-a:hover {
-    color: #eb1e88;
+a:hover, .hovered {
+    color: #F246AE;
 }
 
 .links > a, a:hover, a:visited {
@@ -30,7 +29,7 @@ div.links {
     font-size: 30px;
 }
 
-span.donation {
+.footer {
     font-size: 13px;
 }
 
@@ -39,11 +38,11 @@ hr {
     width: 32.5%;
 }
 
-h1, h2, h3, h4, h5,
-.color {
-    color: #b52f80;
+a, h1, h2, h3, h4, h5,
+.color, #warning {
+    color: #BD488E;
 }
 
-p span:not(.color) {
+p span:not(.color, .hovered) {
     display: block;
 }
