@@ -2,6 +2,7 @@
     --bg: #000000;
     --bg-color: #BD488E;
     --bg-color-hovered: #F246AE;
+    --font: 'Roboto', sans-serif;
 }
 
 * {
@@ -24,7 +25,7 @@ a, h1, h2:not(#name), h3, h4, h5, .color, #warning {
 body {
     background-color: var(--bg);
     color: #FFF;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font);
     font-size: 1rem;
 }
 
