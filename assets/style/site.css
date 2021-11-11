@@ -96,12 +96,12 @@ span {
 @media only screen and (min-device-width: 200px) and (max-device-width: 767px) {
     div.container:not(.home, .projects) {
         overflow-x: hidden;
+        overflow-y: scroll;
         width: 100vw;
         height: 100vh;
     }
 
     div.container.projects {
-        overflow-x: hidden;
         width: 100vw;
     }
 }
