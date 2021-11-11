@@ -31,9 +31,9 @@ body {
 
 div.container {
     font-size: 1.25em;
-    max-width: 45em;
     left: 50%;
     position: fixed;
+    max-width: 45em;
     top: 50%;
     text-align: center;
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -60,6 +60,7 @@ li::before {
 
 li {
     display: block;
+    margin-right: 30px;
 }
 
 p span:not(.color, .hovered) {
