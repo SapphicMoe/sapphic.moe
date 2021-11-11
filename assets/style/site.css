@@ -31,8 +31,8 @@ body {
 
 div.container {
     font-size: 1.25em;
-    left: 50%;
     max-width: 45em;
+    left: 50%;
     position: fixed;
     top: 50%;
     text-align: center;
@@ -82,4 +82,25 @@ span {
 .links > a, a:hover, a:visited {
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
+}
+
+@media only screen and (max-width: 1024px), not screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    div.container:not(.home) {
+        overflow-x: hidden;
+        width: 100vw;
+        height: -40vh;
+    }
+}
+  
+@media only screen and (max-width: 450px) {
+    div.container:not(.home, .projects) {
+        overflow-x: hidden;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    div.container.projects {
+        overflow-x: hidden;
+        width: 100vw;
+    }
 }
