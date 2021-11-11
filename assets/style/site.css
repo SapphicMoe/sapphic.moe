@@ -93,7 +93,7 @@ span {
     }
 }
   
-@media only screen and (max-device-width: 480px) {
+@media only screen and (min-device-width: 200px) and (max-device-width: 767px) {
     div.container:not(.home, .projects) {
         overflow-x: hidden;
         width: 100vw;
