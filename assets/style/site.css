@@ -98,7 +98,7 @@ span {
         overflow-x: hidden;
         overflow-y: scroll;
         width: 100vw;
-        height: 100vh;
+        height: 90vh;
     }
 
     div.container.projects {
