@@ -22,7 +22,7 @@ Licensed under MIT.
         <!-- Metadata -->
         <meta name="author" content="Chloe">
         <meta name="description" content="Personal webpage for Chloe Arciniega.">
-        <meta name="keywords" content="solelychloe,solelychloe,chloe,sol">
+        <meta name="keywords" content="solelychloe,chloe,sol">
         <!-- OpenGraph -->
         <meta property="og:description" content="Personal webpage for Chloe Arciniega.">
         <meta property="og:image" content="/assets/img/icon.png">
@@ -32,9 +32,11 @@ Licensed under MIT.
         <meta property="og:url" content="https://solely.codes">
         <!-- Site -->
         <link rel="icon" href="/assets/img/icon.png" type="image/png" sizes="16x16">
-        <link rel="stylesheet" href="assets/style/site.css">
+        <title>solelychloe</title>
+        <!-- Style-->
+        <link rel="stylesheet" type="text/css" href="assets/style/normalize.css">
+        <link rel="stylesheet" type="text/css" href="assets/style/sakura.css">
         <meta name="theme-color" content="#BD488E">
-        <title>Chloe | Homepage</title>
         <!-- Twitter -->
         <meta name="twitter:card" content="summary">
         <meta name="twitter:creator" content="@solelychloe">
@@ -49,28 +51,67 @@ Licensed under MIT.
     </head>
 
     <body>
-        <div class="container home">
-            <h2 id="name">Chloe <i class="fa fa-transgender color" title="Trans Rights <3" aria-hidden="true"></i></h2>
-            <p>Software & website developer, translator.</p>
-
-            <p><a href="/about">About me</a> | <a href="/projects">Projects</a></p>
-
+        <header id="main">
+            <h1 id="name">solelychloe <i class="fa fa-transgender-alt color" title="Trans Rights <3" aria-hidden="true"></i></h1>
+            <p class="subtitle">Software, website developer, translator.</p> 
+            
             <div class="links">
                 <a href="https://twitter.com/solelychloe" aria-label="Twitter" title="Twitter: @solelychloe"><i class="fab fa-twitter"></i></a>
-                <a href="https://discord.gg/d2" aria-label="Discord" title="Discord: solelychloe#2755"><i class="fab fa-discord"></i></a>
-                <a href="https://www.youtube.com/c/Chloe02" aria-label="YouTube" title="YouTube: /c/Chloe02"><i class="fab fa-youtube"></i></a>
+                <a href="https://github.com/solelychloe" aria-label="GitHub" title="GitHub: solelychloe"><i class="fab fa-github"></i></a>
                 <a href="https://steamcommunity.com/id/solelychloe/" aria-label="Steam" title="Steam: /id/solelychloe"><i class="fab fa-steam"></i></a>
                 <a href="https://reddit.com/u/TishDev" aria-label="Reddit" title="Reddit: /u/TishDev"><i class="fab fa-reddit"></i></a>
-                <a href="https://t.me/solelychloe" aria-label="Telegram" title="Telegram: @solelychloe"><i class="fab fa-telegram"></i></a>
+                <a href="https://crowdin.com/profile/solstice" aria-label="Crowdin" title="Crowdin: solstice"><i class="fas fa-language"></i></a>
             </div>
+        </header>
+        <div id="about">
+            <h2>About me</h2>
+            <hr />
 
-            <hr /> 
-            <div class="footer">       
-                <a href="mailto:solely@riseup.net"><i class="fas fa-envelope"></i> Contact me</a> | <a class="copyright" href="https://ko-fi.com/solelychloe"><i class="fas fa-heart"></i> Support me</a> | <a href="https://github.com/solelychloe/solely.codes"><i class="fab fa-github"></i> View source</a> 
-                <span>Licensed under <a href="https://github.com/solelychloe/solely.codes/blob/main/LICENSE">MIT</a>. Site inspired by <a href="https://espi.me">Espi</a>.</span>
-                <p>© 2021 Chloe K. Arciniega.</p>
-            </div>
+            <p>I am Chloe, a non-binary computer science student located in the North Pole.
+            I prefer the pronouns she/her, however they/them are also fine!</p>
+
+            <p>Right now, I'm familiar with JavaScript and HTML/CSS. I'm currently learning TypeScript and C#. 
+            I also know PostgreSQL and RethinkDB. But I do plan to learn other languages outside my comfort zone!</p>
+
+            <p>Aside from that, I'm also interested in computer hardware & software, not just vintage hardware.</p>
         </div>
-    </body>
+        <div id="projects">
+            <h2>Projects & contributions</h2>
+            <hr />
 
+            <p>Current work:</p>
+            <ul>
+                <li><a href="https://hibiki.app/" title="Hibiki">Hibiki</a> (Ex Dev, September 2018-August 2019 & Translator, March 2021-Present): 
+                    The best all-in-one Discord bot! Automod, fun, music, utilities, and more.</li>
+                <li><a href="https://github.com/terminal/" title="terminal">terminal</a> (Contributor, November 2017-Present): 
+                    A group for Discord bot developers. </li>
+                <li><a href="https://github.com/jiktim" title="jiktim">jiktim</a> (Developer, September 2016-Present): 
+                    Stupid people making stupid software. </li>
+            </ul>
+
+            <p>Previous work:</p>
+            <ul>
+                <li><a href="https://discord.bots.gg/" title="Discord Bots">Discord Bots</a> (Verification Helper, May 2020-September 2020): 
+                    The original Discord bot list, find the right bot for your server today.</li>
+                <li><a href="https://github.com/solelychloe/enlive" title="ENLiVE.media">ENLiVE.media</a> (Developer, March 2020-July 2020): 
+                    ENLiVE is a primarily English and Japanese VTuber group. We are always open to new VTubers, and helping them grow!</li>
+                <li><a href="https://github.com/TranslucentTB/TranslucentTB" title="TranslucentTB">TranslucentTB</a> (Contributor, November 2017): 
+                    A lightweight utility that makes the Windows taskbar translucent/transparent. </li>
+                <li><a href="https://github.com/minemidnight/eris-additions" title="eris-additions">eris-additions</a> (Contributor, November 2017): 
+                    Extended prototypes for the Eris library.</li>
+            </ul>
+        </div>
+        <div id="contact">
+            <h2>Contact</h2>
+            <hr />
+
+            <p>You can contact me through one of few methods:</p>
+            <ul>
+                <li>You can find me in the <a href="https://discord.gg/d2" title="Destiny 2 Discord">Destiny 2 Discord Server</a> as a Moderator, or you can add me at solely#5751.
+                I also respond the quickest on Twitter at <a href="https://twitter.com/solelychloe" title="Twitter">@solelychloe</a>.</li>
+                <li>If you want to send me a personal letter, I'm available at <a href="mailto:solely@riseup.net">solely@riseup.net</a>.</li>
+            </ul>
+        </div>   
+        <p>© 2021 Chloe K. Arciniega. Licensed under <a href="https://github.com/solelychloe/solely.codes/blob/main/LICENSE">MIT</a>. Site inspired by <a href="https://espi.me">sysdotini</a>.</p>
+    </body>
 </html>
