@@ -12,9 +12,41 @@ Some credit goes to Espi (sysdotini). Thank you!
 }
 
 /* Custom */
+.parallel > div {
+    float: left; 
+    padding-right: 12px;
+}
+
+.parallel > img {
+    max-width: 100px; 
+    border-radius: 100%; 
+    margin-bottom: 0px;
+}
+
+.charlemagne h2 a,
+.charlemagne li a { color: #919191; }
+
+.d2transmog h2 a, 
+.d2transmog li a { color: #E1BC91; }
+
+.dim h2 a, 
+.dim li a { color: #F37422; }
+
+.dtracker h2 a,
+.dtracker li a { color: #DF5452; }
+
+.ishtar h2 a,
+.ishtar li a { color: #4485C4; }
+
+.levante h2 a,
+.levante li a { color: #87D3C6; }
+
+.littlelight h2 a,
+.littlelight li a { color: #6f53fd; }
+
 .back { cursor: pointer; }
 
-.color {
+.icon {
     color: var(--accent-color);
     float: right;
 }
