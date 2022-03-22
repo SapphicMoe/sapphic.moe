@@ -1,8 +1,8 @@
 ---
-name: Custom issue template
+name: Parallel Program Request
 about: I have the Parallel Program emblem and I would like to get added to the Parallel
   Program List.
-title: ''
+title: Parallel Program Request
 labels: ''
 assignees: ''
 
