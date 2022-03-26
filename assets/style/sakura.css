@@ -24,7 +24,7 @@ Some credit goes to Espi (sysdotini). Thank you!
 }
 
 .charlemagne h2 a,
-.charlemagne li a { color: #919191; }
+.charlemagne li a { color: #b1acacdc; }
 
 .d2transmog h2 a, 
 .d2transmog li a { color: #E1BC91; }
@@ -32,17 +32,26 @@ Some credit goes to Espi (sysdotini). Thank you!
 .dim h2 a, 
 .dim li a { color: #F37422; }
 
+.drecipes h2 a,
+.drecipes li a { color: #C8435D; }
+
 .dtracker h2 a,
 .dtracker li a { color: #DF5452; }
 
-.ishtar h2 a,
-.ishtar li a { color: #4485C4; }
+.ishtarcoll h2 a,
+.ishtarcoll li a { color: #4485C4; }
+
+.ishtarcomm h2 a,
+.ishtarcomm li a { color: #f8f7f0c5; }
 
 .levante h2 a,
 .levante li a { color: #87D3C6; }
 
 .littlelight h2 a,
 .littlelight li a { color: #6f53fd; }
+
+.trials h2 a,
+.trials li a { color: #EAD884; }
 
 .back { cursor: pointer; }
 
