@@ -4,11 +4,24 @@ Some credit goes to Espi (sysdotini). Thank you!
 
 /* Variables */
 :root {
+    /* Site */
     --bg-color: #000;
     --color: #fff;
     --accent-color: #e0802c;
     --hover-color: #ff7700;
     --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+    /* Parallel Program */
+    --charlemagne: #b1acacdc;
+    --d2transmog: #E1BC91;
+    --dim: #F37422;
+    --drecipes: #C8435D;
+    --dtracker: #E34525;
+    --ishtarcoll: #4485C4;
+    --ishtarcomm: #f8f7f0c5;
+    --levante: #87D3C6;
+    --littlelight: #9e88ffcc;
+    --trials: #EAD884
 }
 
 /* Custom */
@@ -24,36 +37,44 @@ Some credit goes to Espi (sysdotini). Thank you!
 }
 
 .charlemagne h2 a,
-.charlemagne li a { color: #b1acacdc; }
+.charlemagne li a { color: var(--charlemagne); }
+.charlemagne hr { border-color: var(--charlemagne); }
 
 .d2transmog h2 a, 
-.d2transmog li a { color: #E1BC91; }
+.d2transmog li a { color: var(--d2transmog); }
+.d2transmog hr { border-color: var(--d2transmog); }
 
 .dim h2 a, 
-.dim li a { color: #F37422; }
+.dim li a { color: var(--dim); }
+.dim hr { border-color: var(--dim); }
 
 .drecipes h2 a,
-.drecipes li a { color: #C8435D; }
+.drecipes li a { color: var(--drecipes); }
+.drecipes hr { border-color: var(--drecipes); }
 
 .dtracker h2 a,
-.dtracker li a { color: #E34525; }
+.dtracker li a { color: var(--dtracker); }
+.dtracker hr { border-color: var(--dtracker); }
 
 .ishtarcoll h2 a,
-.ishtarcoll li a { color: #4485C4; }
+.ishtarcoll li a { color: var(--ishtarcoll); }
+.ishtarcoll hr { border-color: var(--ishtarcoll); }
 
 .ishtarcomm h2 a,
-.ishtarcomm li a { color: #f8f7f0c5; }
+.ishtarcomm li a { color: var(--ishtarcomm); }
+.ishtarcomm hr { border-color: var(--ishtarcomm); }
 
 .levante h2 a,
-.levante li a { color: #87D3C6; }
+.levante li a { color: var(--levante); }
+.levante hr { border-color: var(--levante); }
 
 .littlelight h2 a,
-.littlelight li a { color: #937dffcc; }
+.littlelight li a { color: var(--littlelight); }
+.littlelight hr { border-color: var(--littlelight); }
 
 .trials h2 a,
-.trials li a { color: #EAD884; }
-
-.back { cursor: pointer; }
+.trials li a { color: var(--trials); }
+.trials hr { border-color: var(--trials); }
 
 .icon {
     color: var(--accent-color);
