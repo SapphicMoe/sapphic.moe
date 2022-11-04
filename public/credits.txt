@@ -1,0 +1,7 @@
+# Credits to other projects that made this site possible
+
+details-polyfill.js: https://github.com/rstacruz/details-polyfill
+erisa: https://erisa.uk
+normalize.css: https://github.com/necolas/normalize.css
+ovyerus: https://ovyerus.com
+sakura.css: https://github.com/oxalorg/sakura

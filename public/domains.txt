@@ -1,0 +1,11 @@
+# All root domains owned (on a registry level) by Chloe Arciniega (arciniega.one)
+# Domains that redirect to domains not in this list may not be in complete control.
+# Content outside of these domains cannot be guarenteed to be owned or managed by Chloe.
+
+# Last updated: October 31, 2022, 9:52:25 PM (UTC+5)
+
+# You are here
+arciniega.one
+
+# Unused
+solely.gay
