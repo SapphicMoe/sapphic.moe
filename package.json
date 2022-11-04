@@ -13,7 +13,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/image": "^0.11.0",
     "@astrojs/prefetch": "^0.1.1",
     "@astrojs/sitemap": "^1.0.0",
     "@fontsource/inter": "^4.5.14",

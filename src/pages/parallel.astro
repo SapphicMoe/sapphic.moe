@@ -2,7 +2,6 @@
 import Layout from '../layouts/Layout.astro';
 import Footer from '../components/footer.astro';
 import Project from '../components/parallel.astro';
-import { Image } from '@astrojs/image/components';
 import { Icon } from 'astro-icon';
 ---
 
@@ -29,7 +28,7 @@ import { Icon } from 'astro-icon';
 
     <Project class="charlemagne">
         <h2 slot="project-name"><a href="https://warmind.io" title="Charlemagne" target="_blank">Charlemagne <Icon size={16} name="mdi:external-link" /></a>
-        <Image slot="project-icon" src={import('../images/parallel/Charlemagne.png')} alt="Charlemagne Logo" title="Charlemagne Logo" class="parallel-img" width="50" height="50" /></h2> 
+        <img slot="project-icon" src="/images/parallel/Charlemagne.png" alt="Charlemagne Logo" title="Charlemagne Logo" class="parallel-img" width="50" height="50" /></h2> 
         <p slot="project-description">A Discord bot that provides detailed access to Destiny 2 information. Check profile stats, clan ranking, and have scheduled LFG posts.</p>
     
         <ul>
@@ -46,7 +45,7 @@ import { Icon } from 'astro-icon';
 
     <Project class="destinyitemmanager">
         <h2 slot="project-name"><a href="https://destinyitemmanager.com" title="Destiny Item Manager" target="_blank">Destiny Item Manager <Icon size={16} name="mdi:external-link" /></a>
-        <Image slot="project-icon" src={import('../images/parallel/DIM.png')} alt="DIM Logo" title="DIM Logo" class="parallel-img" width="50" height="50" /></h2>
+        <img slot="project-icon" src="/images/parallel/DIM.png" alt="DIM Logo" title="DIM Logo" class="parallel-img" width="50" height="50" /></h2>
         <p slot="project-description">Build the loadout, swap items and check stats at any time to Become Legend.</p>
 
         <ul>
@@ -116,7 +115,7 @@ import { Icon } from 'astro-icon';
 
     <Project class="destinytracker">
         <h2 slot="project-name"><a href="https://destinytracker.com" title="DestinyTracker" target="_blank">DestinyTracker <Icon size={16} name="mdi:external-link" /></a>
-        <Image slot="project-icon" src={import('../images/parallel/DestinyTracker.png')} alt="DestinyTracker Logo" title="DestinyTracker Logo" class="parallel-img-alt" width="60" height="60" /></h2>
+        <img slot="project-icon" src="/images/parallel/DestinyTracker.png" alt="DestinyTracker Logo" title="DestinyTracker Logo" class="parallel-img-alt" width="60" height="60" /></h2>
         <p slot="project-description">The website for detailed profile and weapon statistics. Compete against the top players in featured leaderboards.</p>
 
         <ul>
@@ -135,7 +134,7 @@ import { Icon } from 'astro-icon';
 
     <Project class="ghostoverlay">
         <h2 slot="project-name"><a href="https://ghostoverlay.com/" title="Ghost Overlay" target="_blank">Ghost Overlay <Icon size={16} name="mdi:external-link" /></a>
-        <Image slot="project-icon" src={import('../images/parallel/GhostOverlay.png')} alt="Ghost Overlay Logo" title="Ghost Overlay Logo" class="parallel-img" width="50" height="50" /></h2>
+        <img slot="project-icon" src="/images/parallel/GhostOverlay.png" alt="Ghost Overlay Logo" title="Ghost Overlay Logo" class="parallel-img" width="50" height="50" /></h2>
         <p slot="project-description">A mini app that lets you pin bounties, triumphs, and quests on top of Destiny 2.</p>
 
         <ul>
@@ -146,7 +145,7 @@ import { Icon } from 'astro-icon';
 
     <Project class="guardiantheater">
         <h2 slot="project-name"><a href="https://guardian.theater" title="Guardian Theater" target="_blank">Guardian Theater <Icon size={16} name="mdi:external-link" /></a>
-        <Image slot="project-icon" src={import('../images/parallel/GuardianTheater.png')} alt="Guardian Theater Logo" title="Guardian Theater Logo" class="parallel-img" width="60" height="60" /></h2>
+        <img slot="project-icon" src="/images/parallel/GuardianTheater.png" alt="Guardian Theater Logo" title="Guardian Theater Logo" class="parallel-img" width="60" height="60" /></h2>
         <p slot="project-description">Find yourself in the Twitch VODs that your Destiny 2 teammates and opponents recorded.</p>
 
         <ul>
@@ -191,7 +190,7 @@ import { Icon } from 'astro-icon';
 
     <Project class="levante">
         <h2 slot="project-name"><a href="https://www.levante.dev" title="Levante Discord Bot" target="_blank">Levante <Icon size={16} name="mdi:external-link" /></a>
-        <Image slot="project-icon" src={import('../images/parallel/Levante.png')} alt="Levante Bot Logo" title="Levante Bot Logo" class="parallel-img" width="50" height="50" /></h2>
+        <img slot="project-icon" src="/images/parallel/Levante.png" alt="Levante Bot Logo" title="Levante Bot Logo" class="parallel-img" width="50" height="50" /></h2>
         <p slot="project-description">A multi-purpose Destiny Discord bot. Track daily rotations, emblems, and more.</p>
 
         <ul>
@@ -204,7 +203,7 @@ import { Icon } from 'astro-icon';
 
     <Project class="littlelight">
         <h2 slot="project-name"><a href="https://littlelight.club" title="Little Light" target="_blank">Little Light <Icon size={16} name="mdi:external-link" /></a>
-        <Image slot="project-icon" src={import('../images/parallel/LittleLight.png')} alt="Little Light Logo" title="Little Light Logo" class="parallel-img" width="50" height="50" /></h2>
+        <img slot="project-icon" src="/images/parallel/LittleLight.png" alt="Little Light Logo" title="Little Light Logo" class="parallel-img" width="50" height="50" /></h2>
         <p slot="project-description">An item manager for Destiny 2 that will make your Guardian's life a lot easier.</p>
 
         <ul>
@@ -232,7 +231,7 @@ import { Icon } from 'astro-icon';
 
     <Project class="lostsector">
         <h2 slot="project-name"><a href="https://twitter.com/D2LostSector" title="Lost Sector Report" target="_blank">Lost Sector Report <Icon size={16} name="mdi:external-link" /></a>
-        <Image slot="project-icon" src={import('../images/parallel/LostSector.png')} alt="LS Report Logo" title="LS Report Logo" class="parallel-img" width="50" height="50" /></h2>
+        <img slot="project-icon" src="/images/parallel/LostSector.png" alt="LS Report Logo" title="LS Report Logo" class="parallel-img" width="50" height="50" /></h2>
         <p slot="project-description">Your daily Destiny 2 Legend & Master Lost Sector report.</p>
 
         <ul>
@@ -251,7 +250,7 @@ import { Icon } from 'astro-icon';
 
     <Project class="scrublandeux">
         <h2 slot="project-name"><a href="https://chrisfried.github.io/secret-scrublandeux/" title="Scrublandeux" target="_blank">Scrublandeux <Icon size={16} name="mdi:external-link" /></a>
-        <Image slot="project-icon" src={import('../images/parallel/Scrublandeux.png')} alt="Scrublandeux Logo" title="Scrublandeux Logo" class="parallel-img" width="40" height="40" /></h2>
+        <img slot="project-icon" src="/images/parallel/Scrublandeux.png" alt="Scrublandeux Logo" title="Scrublandeux Logo" class="parallel-img" width="40" height="40" /></h2>
         <p slot="project-description">A calendar heatmap of time spent playing Destiny 2.</p>
 
         <ul>
@@ -263,7 +262,7 @@ import { Icon } from 'astro-icon';
 
     <Project class="todayindestiny">
         <h2 slot="project-name"><a href="https://www.todayindestiny.com/" title="TodayInDestiny" target="_blank">TodayInDestiny <Icon size={16} name="mdi:external-link" /></a>
-        <Image slot="project-icon" src={import('../images/parallel/TodayInDestiny.png')} alt="TodayInDestiny Logo" title="TodayInDestiny Logo" class="parallel-img" width="60" height="60" /></h2>
+        <img slot="project-icon" src="/images/parallel/TodayInDestiny.png" alt="TodayInDestiny Logo" title="TodayInDestiny Logo" class="parallel-img" width="60" height="60" /></h2>
         <p slot="project-description">A summary of what's available in Destiny today.</p>
 
         <ul>
@@ -274,7 +273,7 @@ import { Icon } from 'astro-icon';
 
     <Project class="trialsreport">
         <h2 slot="project-name"><a href="https://trials.report" title="Trials Report" target="_blank">Trials Report <Icon size={16} name="mdi:external-link" /></a>
-        <Image slot="project-icon" src={import('../images/parallel/TrialsReport.png')} alt="Trials Report Logo" title="Trials Report Logo" class="parallel-img" width="60" height="60" /></h2>
+        <img slot="project-icon" src="/images/parallel/TrialsReport.png" alt="Trials Report Logo" title="Trials Report Logo" class="parallel-img" width="60" height="60" /></h2>
         <p slot="project-description">The ultimate companion for Destiny's Trials of Osiris. Look up everything on your opponents or yourself and see your game improve!</p>
 
         <ul>
