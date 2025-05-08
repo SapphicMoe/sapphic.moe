@@ -16,4 +16,4 @@ Contents in the `/src/content/articles` and `/src/content/info` folders are lice
 &copy; 2024 Sapphic Angels.
 
 [cc-license]: https://creativecommons.org/licenses/by-nc-sa/4.0/ 'Creative Commons CC-BY-NC-SA 4.0 International License'
-[license]: https://github.com/solelychloe/sapphic.moe/blob/main/LICENSE 'zlib License'
+[license]: LICENSE 'zlib License'
